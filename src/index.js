@@ -1,17 +1,17 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import App from './App';
-import App2 from './App2';
+import UseEffect from './UseEffect';
+import CleanupFn from './CleanupFn';
 // import "./style.css";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <div>
-    <App />
+    <UseEffect />
     <br />
     <br />
     <br />
-    <App2 />
+    <CleanupFn />
   </div>
 );
 
